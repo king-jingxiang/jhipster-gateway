@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "jhipsterGateway",
+    "packageName": "com.leinao.gateway",
+    "packageFolder": "com/leinao/gateway",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "ZWViOWU3ZjljZDQ4MWM4YTYwODVhZDA4NWIzNjg5MzNkZGQ2MTM5ZDhiYzcxZjBhODY0NjJlNGZkYzg3NmJlMDM2ZTJiMmRjM2NkODZkNjJiZjkyMThjOTVlOTU2NWI2N2QzZDVjZmZlOWY3NmJkMDg3ZDBiYmYwZjY4NTJkM2U="
+  },
+  "git-provider": "GitHub",
+  "git-company": "QQ764073652",
+  "repository-name": "jhipster-gateway"
+}
